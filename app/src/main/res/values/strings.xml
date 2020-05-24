@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Pirate Places</string>
+    <string name="location_studentcenter">Main Campus Student Center</string>
+    <string name="location_biltmore">Biltmore House and Gardens</string>
+    <string name="location_hangingrock">Hanging Rock State Park</string>
+    <string name="location_wright">Wright Auditorium</string>
+    <string name="studentcenter_names">Rebecca, Michael, Andrew</string>
+    <string name="biltmore_names">Luke, Matthew, Sue, John, Beth</string>
+    <string name="hangingrock_names">Jason, Jim, Emely, Sarah</string>
+    <string name="wright_names">Dave, Rick, Sam, Leslie, Amber, Rachel</string>
+    <string name="prev_button">Previous</string>
+    <string name="next_button">Next</string>
+    <string name="end_toast">You are already on the last place</string>
+    <string name="beg_toast">You are already on the first place</string>
+    <string name="notcheckin_text">Not Checked In</string>
+    <string name="checkin_text">Checked In</string>
+    <string name="checkin_button">Check In!</string>
+    <string name="checkin_toast">You are checked in!</string>
+
 </resources>

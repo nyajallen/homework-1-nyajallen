@@ -6,41 +6,25 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".PiratePlacesActivity">
+    tools:context=".CheckInActivity">
 
     <TextView
         android:id="@+id/location_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:padding="24dp"
         tools:text="@string/location_studentcenter" />
 
     <TextView
-        android:id="@+id/name_text_view"
+        android:id="@+id/checkin_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:padding="24dp"
-        android:text="@string/studentcenter_names" />
-    <LinearLayout
+        tools:text="@string/notcheckin_text" />
+    <Button
+        android:id="@+id/checkin_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/prev_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/prev_button" />
-        <Button
-            android:id="@+id/next_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/next_button" />
-
-    </LinearLayout>
-
+        android:text="@string/checkin_button" />
 
 </LinearLayout>
